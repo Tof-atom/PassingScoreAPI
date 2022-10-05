@@ -6,9 +6,6 @@ public class ScoreManager {
     };
 
     public boolean Check(int score) {
-        if (score > 6)
-            return true;
-        else
-            return false;
+        return (score >= 6);
     }
 }
